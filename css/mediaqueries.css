@@ -1,0 +1,36 @@
+@media only screen and (max-width: 900px), only screen and (min-width: 768px) and (max-width: 1023px) {
+body { min-width: auto; padding:0 12px 12px }
+.pageWidth { width:auto;}
+
+nav { padding:5px 0 0 }
+nav li { margin-bottom:5px; padding:0 5px;}
+nav li a { display:block; line-height:35px; }
+
+}
+
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 480px), only screen and (max-width: 767px) {
+body { min-width: auto; padding:0 8px 8px }
+.pageWidth { width:auto; padding-top:10px; }
+
+#logo { font-size:45px; line-height:52px; }
+#header{ padding:20px 0}
+
+nav { background:#616161 url(../img/nav-bg.png) repeat-x left top; text-align:center;}
+nav ul { background:rgba(255,255,255,0.17); display:none }
+nav li { float:none; display:block; border-top:solid 1px rgba(0,0,0,0.10); margin-bottom:0; padding:0 }
+nav li:first-child { border-top:solid 1px rgba(0,0,0,0.10) }
+nav li a { line-height:38px; }
+nav li a:hover, nav li.active a { border-radius:0; }
+#menu { display:block }
+
+.banner img { width:100%;}
+#container { padding-bottom:10px;}
+#footer { padding:15px 0; }
+
+}
+
+
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px), only screen and (max-width: 400px) {
+
+}
